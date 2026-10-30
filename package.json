@@ -1,0 +1,16 @@
+{
+  "name": "attendance-app-capacitor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "cap:sync": "npx cap sync android",
+    "cap:add:android": "npx cap add android",
+    "cap:open:android": "npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  }
+}
